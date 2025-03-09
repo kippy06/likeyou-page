@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #1c1c1c;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .progress-container {
+            width: 80%;
+            background-color: #2e2e2e;
+            border-radius: 5px;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        .progress-bar {
+            height: 20px;
+            width: 25%; /* Progresso 1 de 8 */
+            background-color: #ff69b4;
+            text-align: center;
+            line-height: 20px;
+            color: white;
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #ff69b4;
+            border-radius: 5px;
+            background-color: #2e2e2e;
+            color: #fff;
+        }
+        button {
+            width: 120px;
+            padding: 10px;
+            background-color: #ff69b4;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #ff1493;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar">1/8</div>
+    </div>
+    <h1>Página 1</h1>
+    <p>Escreva o título dedicatório para a página.</p>
+    <form>
+        <input type="text" placeholder="Título" required>
+        <div class="button-container">
+            <button type="button" onclick="window.location.href='home.html'">Voltar</button>
+            <button type="button" onclick="window.location.href='pagina2.html'">Próximo</button>
+        </div>
+    </form>
+</body>
+</html>
