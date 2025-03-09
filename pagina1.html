@@ -21,7 +21,7 @@
         }
         .progress-bar {
             height: 20px;
-            width: 25%; /* Progresso 1 de 8 */
+            width: 25%; /* Exemplo de progresso 1 de 8 */
             background-color: #ff69b4;
             text-align: center;
             line-height: 20px;
@@ -37,21 +37,21 @@
             color: #fff;
         }
         button {
-            width: 120px;
+            width: 120px; /* Tamanho fixo para ambos os botões */
             padding: 10px;
             background-color: #ff69b4;
             border: none;
             border-radius: 5px;
             color: white;
             cursor: pointer;
-            margin: 5px;
+            margin: 5px; /* Espaçamento entre os botões */
         }
         button:hover {
             background-color: #ff1493;
         }
         .button-container {
             display: flex;
-            justify-content: center;
+            justify-content: center; /* Centraliza os botões */
         }
     </style>
 </head>
@@ -59,12 +59,12 @@
     <div class="progress-container">
         <div class="progress-bar">1/8</div>
     </div>
-    <h1>Página 1</h1>
-    <p>Escreva o título dedicatório para a página.</p>
+    <h1>Título da Página</h1>
+    <p>Escreva o título dedicatório para a página. Ex: João & Maria ou Feliz Aniversário ou etc!</p>
     <form>
-        <input type="text" placeholder="Título" required>
+        <input type="text" placeholder="Ex: João & Maria ou Feliz Aniversário" required>
         <div class="button-container">
-            <button type="button" onclick="window.location.href='home.html'">Voltar</button>
+            <button type="button" onclick="window.location.href='home.html'">Voltar para a Home</button>
             <button type="button" onclick="window.location.href='pagina2.html'">Próximo</button>
         </div>
     </form>
