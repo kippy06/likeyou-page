@@ -64,14 +64,14 @@
     </header>
     
     <div style="text-align: left; margin-left: 10px;">
-        <button class="start-button-small" id="startButtonSmall">Vamos começar?</button>
+        <button class="start-button-small" id="startButtonSmall" disabled>Vamos começar?</button>
     </div>
     
     <div class="surprise-text" id="surpriseText">Surpreenda</div>
     <div class="dynamic-text typing" id="dynamicText"></div>
     <div class="message" id="message">Espalhe amor e carinho para quem você valoriza e faça a diferença! Crie uma página dedicada à sua pessoa especial.</div>
     
-    <button class="start-button" id="startButton">Começar</button>
+    <button class="start-button" id="startButton" disabled>Começar</button>
     
     <div class="how-it-works" id="howItWorks">Como funciona?</div>
 
@@ -111,15 +111,6 @@
         document.addEventListener("DOMContentLoaded", () => {
             typeEffect();
         });
-
-        // Função para redirecionar para a página do formulário
-        function openFormPage() {
-            window.location.href = "pagina1.html"; // Redireciona para a Página 1
-        }
-
-        // Adiciona eventos de clique nos botões
-        document.getElementById("startButtonSmall").addEventListener("click", openFormPage);
-        document.getElementById("startButton").addEventListener("click", openFormPage);
 
         function changeLanguage() {
             // Adicione a lógica de tradução se necessário
