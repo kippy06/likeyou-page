@@ -12,61 +12,27 @@
             padding: 20px;
             text-align: center;
         }
-        .progress-container {
-            width: 80%;
-            background-color: #2e2e2e;
-            border-radius: 5px;
-            margin: 20px auto;
-            overflow: hidden;
-        }
-        .progress-bar {
-            height: 20px;
-            width: 25%; /* Exemplo de progresso 1 de 8 */
-            background-color: #ff69b4;
-            text-align: center;
-            line-height: 20px;
-            color: white;
-        }
-        input {
-            width: 80%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 2px solid #ff69b4;
-            border-radius: 5px;
-            background-color: #2e2e2e;
-            color: #fff;
+        h1 {
+            margin-bottom: 20px;
         }
         button {
-            width: 120px; /* Tamanho fixo para ambos os botões */
+            width: 120px; /* Tamanho fixo para o botão */
             padding: 10px;
             background-color: #ff69b4;
             border: none;
             border-radius: 5px;
             color: white;
             cursor: pointer;
-            margin: 5px; /* Espaçamento entre os botões */
+            margin-top: 20px;
         }
         button:hover {
             background-color: #ff1493;
         }
-        .button-container {
-            display: flex;
-            justify-content: center; /* Centraliza os botões */
-        }
     </style>
 </head>
 <body>
-    <div class="progress-container">
-        <div class="progress-bar">1/8</div>
-    </div>
-    <h1>Título da Página</h1>
-    <p>Escreva o título dedicatório para a página. Ex: João & Maria ou Feliz Aniversário ou etc!</p>
-    <form>
-        <input type="text" placeholder="Ex: João & Maria ou Feliz Aniversário" required>
-        <div class="button-container">
-            <button type="button" onclick="window.location.href='pagina1.html'">Voltar</button>
-            <button type="button" onclick="window.location.href='pagina2.html'">Próximo</button>
-        </div>
-    </form>
+    <h1>Bem-vindo ao Projeto!</h1>
+    <p>Esta é uma breve introdução ao que vamos fazer. Clique no botão abaixo para começar.</p>
+    <button type="button" onclick="window.location.href='pagina2.html'">Começar</button>
 </body>
 </html>
