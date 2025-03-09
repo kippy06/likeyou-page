@@ -40,7 +40,7 @@
             margin: 10px 0;
         }
         .start-button-small { font-size: 12px; }
-        .start-button { font-size: 18px; background-color: #ff69b4; border: none; }
+        .start-button { font-size: 18px; background-color: #ff69b4; }
         .start-button-small:hover, .start-button:hover { background-color: #ff1493; transform: scale(1.05); }
         .surprise-text { font-size: 40px; color: #ff69b4; text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.8); }
         .dynamic-text { font-size: 26px; color: #ffb6c1; text-shadow: 1px 1px 3px rgba(255, 182, 193, 0.7); }
@@ -55,7 +55,7 @@
 </head>
 <body>
     <header>
-        <h1 id="title">Likeyou</h1>
+        <h1>Likeyou</h1>
         <select class="language-selector" onchange="changeLanguage()">
             <option value="pt-BR">🇧🇷</option>
             <option value="en-US">🇺🇸</option>
@@ -67,19 +67,19 @@
         <button class="start-button-small" id="startButtonSmall" disabled>Vamos começar?</button>
     </div>
     
-    <div class="surprise-text" id="surpriseText">Surpreenda</div>
-    <div class="dynamic-text typing" id="dynamicText"></div>
-    <div class="message" id="message">Espalhe amor e carinho para quem você valoriza e faça a diferença! Crie uma página dedicada à sua pessoa especial.</div>
+    <div class="surprise-text">Surpreenda</div>
+    <div class="dynamic-text typing"></div>
+    <div class="message">Espalhe amor e carinho para quem você valoriza e faça a diferença! Crie uma página dedicada à sua pessoa especial.</div>
     
     <button class="start-button" id="startButton" disabled>Começar</button>
     
-    <div class="how-it-works" id="howItWorks">Como funciona?</div>
+    <div class="how-it-works">Como funciona?</div>
 
     <div class="steps">
-        <div class="step" id="step1"><h3>1. Formulário de criação</h3><p>Siga as etapas preenchendo o formulário.</p></div>
-        <div class="step" id="step2"><h3>2. Pagamento seguro</h3><p>Faça o pagamento de forma segura com Cartão de Crédito ou PIX.</p></div>
-        <div class="step" id="step3"><h3>3. Código QR e link</h3><p>Você receberá um QR code e um link via email para acessar a página personalizada.</p></div>
-        <div class="step" id="step4"><h3>4. Faça a surpresa</h3><p>Faça uma surpresa para alguém especial compartilhando o link ou o QR code.</p></div>
+        <div class="step"><h3>1. Formulário de criação</h3><p>Siga as etapas preenchendo o formulário.</p></div>
+        <div class="step"><h3>2. Pagamento seguro</h3><p>Faça o pagamento de forma segura com Cartão de Crédito ou PIX.</p></div>
+        <div class="step"><h3>3. Código QR e link</h3><p>Você receberá um QR code e um link via email para acessar a página personalizada.</p></div>
+        <div class="step"><h3>4. Faça a surpresa</h3><p>Faça uma surpresa para alguém especial compartilhando o link ou o QR code.</p></div>
     </div>
 
     <script>
